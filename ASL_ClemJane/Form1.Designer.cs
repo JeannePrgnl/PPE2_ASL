@@ -57,6 +57,7 @@
             // 
             // tabAccueil
             // 
+            this.tabAccueil.BackColor = System.Drawing.Color.Linen;
             this.tabAccueil.Controls.Add(this.label3);
             this.tabAccueil.Controls.Add(this.pictureBox1);
             this.tabAccueil.Controls.Add(this.label2);
@@ -67,12 +68,11 @@
             this.tabAccueil.Size = new System.Drawing.Size(886, 477);
             this.tabAccueil.TabIndex = 0;
             this.tabAccueil.Text = "Accueil";
-            this.tabAccueil.UseVisualStyleBackColor = true;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(331, 449);
+            this.label3.Location = new System.Drawing.Point(345, 452);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(209, 13);
             this.label3.TabIndex = 3;
@@ -91,25 +91,26 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Castellar", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(135, 332);
+            this.label2.Font = new System.Drawing.Font("Copperplate Gothic Light", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(167, 332);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(617, 23);
+            this.label2.Size = new System.Drawing.Size(550, 21);
             this.label2.TabIndex = 1;
             this.label2.Text = "Application de gestion des Assises du Sport Lorrain";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Castellar", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(77, 262);
+            this.label1.Font = new System.Drawing.Font("Copperplate Gothic Bold", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(118, 282);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(742, 44);
+            this.label1.Size = new System.Drawing.Size(655, 41);
             this.label1.TabIndex = 0;
             this.label1.Text = "Maison des Ligues de Lorraine";
             // 
             // tabAtelier
             // 
+            this.tabAtelier.BackColor = System.Drawing.Color.Linen;
             this.tabAtelier.Controls.Add(this.LdlAtelier);
             this.tabAtelier.Location = new System.Drawing.Point(4, 22);
             this.tabAtelier.Name = "tabAtelier";
@@ -117,7 +118,6 @@
             this.tabAtelier.Size = new System.Drawing.Size(886, 477);
             this.tabAtelier.TabIndex = 1;
             this.tabAtelier.Text = "Gestion Atelier";
-            this.tabAtelier.UseVisualStyleBackColor = true;
             // 
             // tabStand
             // 
@@ -132,9 +132,12 @@
             // LdlAtelier
             // 
             this.LdlAtelier.AutoSize = true;
-            this.LdlAtelier.Location = new System.Drawing.Point(355, 128);
+            this.LdlAtelier.BackColor = System.Drawing.Color.White;
+            this.LdlAtelier.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LdlAtelier.Font = new System.Drawing.Font("Copperplate Gothic Bold", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LdlAtelier.Location = new System.Drawing.Point(351, 65);
             this.LdlAtelier.Name = "LdlAtelier";
-            this.LdlAtelier.Size = new System.Drawing.Size(41, 13);
+            this.LdlAtelier.Size = new System.Drawing.Size(199, 43);
             this.LdlAtelier.TabIndex = 0;
             this.LdlAtelier.Text = "Ateliers";
             // 
