@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace ASL_ClemJane
 {
-    public partial class Form1 : Form
+    public partial class formAsl : Form
     {
-        public Form1()
+        public formAsl()
         {
             InitializeComponent();
         }
+
+        private void formAsl_Load(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }
