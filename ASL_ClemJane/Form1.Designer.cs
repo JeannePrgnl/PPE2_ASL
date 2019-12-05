@@ -37,9 +37,11 @@
             this.label1 = new System.Windows.Forms.Label();
             this.tabAtelier = new System.Windows.Forms.TabPage();
             this.tabStand = new System.Windows.Forms.TabPage();
+            this.LdlAtelier = new System.Windows.Forms.Label();
             this.tabAsl.SuspendLayout();
             this.tabAccueil.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.tabAtelier.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabAsl
@@ -108,6 +110,7 @@
             // 
             // tabAtelier
             // 
+            this.tabAtelier.Controls.Add(this.LdlAtelier);
             this.tabAtelier.Location = new System.Drawing.Point(4, 22);
             this.tabAtelier.Name = "tabAtelier";
             this.tabAtelier.Padding = new System.Windows.Forms.Padding(3);
@@ -126,6 +129,15 @@
             this.tabStand.Text = "Affectation Stand";
             this.tabStand.UseVisualStyleBackColor = true;
             // 
+            // LdlAtelier
+            // 
+            this.LdlAtelier.AutoSize = true;
+            this.LdlAtelier.Location = new System.Drawing.Point(355, 128);
+            this.LdlAtelier.Name = "LdlAtelier";
+            this.LdlAtelier.Size = new System.Drawing.Size(41, 13);
+            this.LdlAtelier.TabIndex = 0;
+            this.LdlAtelier.Text = "Ateliers";
+            // 
             // formAsl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -139,6 +151,8 @@
             this.tabAccueil.ResumeLayout(false);
             this.tabAccueil.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.tabAtelier.ResumeLayout(false);
+            this.tabAtelier.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -153,6 +167,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TabPage tabAtelier;
         private System.Windows.Forms.TabPage tabStand;
+        private System.Windows.Forms.Label LdlAtelier;
     }
 }
 
