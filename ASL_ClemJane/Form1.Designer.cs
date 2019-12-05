@@ -37,9 +37,11 @@
             this.label1 = new System.Windows.Forms.Label();
             this.tabAtelier = new System.Windows.Forms.TabPage();
             this.tabStand = new System.Windows.Forms.TabPage();
+            this.label4 = new System.Windows.Forms.Label();
             this.tabAsl.SuspendLayout();
             this.tabAccueil.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.tabStand.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabAsl
@@ -118,13 +120,27 @@
             // 
             // tabStand
             // 
+            this.tabStand.BackColor = System.Drawing.Color.Linen;
+            this.tabStand.Controls.Add(this.label4);
+            this.tabStand.Font = new System.Drawing.Font("Copperplate Gothic Bold", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabStand.Location = new System.Drawing.Point(4, 22);
             this.tabStand.Name = "tabStand";
             this.tabStand.Padding = new System.Windows.Forms.Padding(3);
             this.tabStand.Size = new System.Drawing.Size(886, 477);
             this.tabStand.TabIndex = 2;
             this.tabStand.Text = "Affectation Stand";
-            this.tabStand.UseVisualStyleBackColor = true;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.White;
+            this.label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label4.Font = new System.Drawing.Font("Copperplate Gothic Bold", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(149, 51);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(588, 43);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "Stands des Equipementiers";
             // 
             // formAsl
             // 
@@ -139,6 +155,8 @@
             this.tabAccueil.ResumeLayout(false);
             this.tabAccueil.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.tabStand.ResumeLayout(false);
+            this.tabStand.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -153,6 +171,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TabPage tabAtelier;
         private System.Windows.Forms.TabPage tabStand;
+        private System.Windows.Forms.Label label4;
     }
 }
 
