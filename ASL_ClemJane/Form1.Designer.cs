@@ -36,12 +36,14 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.tabAtelier = new System.Windows.Forms.TabPage();
-            this.tabStand = new System.Windows.Forms.TabPage();
             this.LdlAtelier = new System.Windows.Forms.Label();
+            this.tabStand = new System.Windows.Forms.TabPage();
+            this.label4 = new System.Windows.Forms.Label();
             this.tabAsl.SuspendLayout();
             this.tabAccueil.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabAtelier.SuspendLayout();
+            this.tabStand.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabAsl
@@ -119,16 +121,6 @@
             this.tabAtelier.TabIndex = 1;
             this.tabAtelier.Text = "Gestion Atelier";
             // 
-            // tabStand
-            // 
-            this.tabStand.Location = new System.Drawing.Point(4, 22);
-            this.tabStand.Name = "tabStand";
-            this.tabStand.Padding = new System.Windows.Forms.Padding(3);
-            this.tabStand.Size = new System.Drawing.Size(886, 477);
-            this.tabStand.TabIndex = 2;
-            this.tabStand.Text = "Affectation Stand";
-            this.tabStand.UseVisualStyleBackColor = true;
-            // 
             // LdlAtelier
             // 
             this.LdlAtelier.AutoSize = true;
@@ -140,6 +132,29 @@
             this.LdlAtelier.Size = new System.Drawing.Size(199, 43);
             this.LdlAtelier.TabIndex = 0;
             this.LdlAtelier.Text = "Ateliers";
+            // 
+            // tabStand
+            // 
+            this.tabStand.BackColor = System.Drawing.Color.Linen;
+            this.tabStand.Controls.Add(this.label4);
+            this.tabStand.Location = new System.Drawing.Point(4, 22);
+            this.tabStand.Name = "tabStand";
+            this.tabStand.Padding = new System.Windows.Forms.Padding(3);
+            this.tabStand.Size = new System.Drawing.Size(886, 477);
+            this.tabStand.TabIndex = 2;
+            this.tabStand.Text = "Affectation Stand";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.White;
+            this.label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label4.Font = new System.Drawing.Font("Copperplate Gothic Bold", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(196, 56);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(504, 43);
+            this.label4.TabIndex = 1;
+            this.label4.Text = "Stands et Partenaires ";
             // 
             // formAsl
             // 
@@ -156,6 +171,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tabAtelier.ResumeLayout(false);
             this.tabAtelier.PerformLayout();
+            this.tabStand.ResumeLayout(false);
+            this.tabStand.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -171,6 +188,7 @@
         private System.Windows.Forms.TabPage tabAtelier;
         private System.Windows.Forms.TabPage tabStand;
         private System.Windows.Forms.Label LdlAtelier;
+        private System.Windows.Forms.Label label4;
     }
 }
 
