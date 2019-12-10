@@ -37,7 +37,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.tabAtelier = new System.Windows.Forms.TabPage();
             this.tabStand = new System.Windows.Forms.TabPage();
-            this.LdlStand = new System.Windows.Forms.Label();
+            this.LblTitre = new System.Windows.Forms.Label();
             this.tabAsl.SuspendLayout();
             this.tabAccueil.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -121,7 +121,7 @@
             // tabStand
             // 
             this.tabStand.BackColor = System.Drawing.Color.Linen;
-            this.tabStand.Controls.Add(this.LdlStand);
+            this.tabStand.Controls.Add(this.LblTitre);
             this.tabStand.Font = new System.Drawing.Font("Copperplate Gothic Bold", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabStand.Location = new System.Drawing.Point(4, 22);
             this.tabStand.Name = "tabStand";
@@ -130,17 +130,17 @@
             this.tabStand.TabIndex = 2;
             this.tabStand.Text = "Affectation Stand";
             // 
-            // LdlStand
+            // LblTitre
             // 
-            this.LdlStand.AutoSize = true;
-            this.LdlStand.BackColor = System.Drawing.Color.White;
-            this.LdlStand.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.LdlStand.Font = new System.Drawing.Font("Copperplate Gothic Bold", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LdlStand.Location = new System.Drawing.Point(149, 51);
-            this.LdlStand.Name = "LdlStand";
-            this.LdlStand.Size = new System.Drawing.Size(588, 43);
-            this.LdlStand.TabIndex = 0;
-            this.LdlStand.Text = "Stands des Equipementiers";
+            this.LblTitre.AutoSize = true;
+            this.LblTitre.BackColor = System.Drawing.Color.White;
+            this.LblTitre.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LblTitre.Font = new System.Drawing.Font("Copperplate Gothic Bold", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblTitre.Location = new System.Drawing.Point(149, 51);
+            this.LblTitre.Name = "LblTitre";
+            this.LblTitre.Size = new System.Drawing.Size(588, 43);
+            this.LblTitre.TabIndex = 0;
+            this.LblTitre.Text = "Stands des Equipementiers";
             // 
             // formAsl
             // 
@@ -171,7 +171,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TabPage tabAtelier;
         private System.Windows.Forms.TabPage tabStand;
-        private System.Windows.Forms.Label LdlStand;
+        private System.Windows.Forms.Label LblTitre;
     }
 }
 
